@@ -52,7 +52,7 @@ const Reviews = () => {
     <div>
       <div className="reviews-container">
         <div className="center">
-          <span className="test-heading">Our patients feedback about us</span>
+          <span className="findtest-heading">Our patients feedback about us</span>
         </div>
         <span className="test-text-top center">
           their impression after using our service

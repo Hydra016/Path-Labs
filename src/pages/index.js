@@ -8,7 +8,7 @@ import Test from "@/components/Test Page";
 import FindTest from "@/components/FindTest";
 import Schedule from "@/components/Schedule";
 import Reviews from "@/components/Reviews";
-import Accredations from "@/components/Accredations/Index";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -29,8 +29,8 @@ export default function Home() {
       <section className="section-alternate">
         <Reviews />
       </section>
-      <section className="section-alternate">
-        <Accredations />
+      <section className="footer-section">
+        <Footer />
       </section>
     </div>
   );
