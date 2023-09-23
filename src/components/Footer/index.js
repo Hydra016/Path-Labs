@@ -163,7 +163,9 @@ const Footer = () => {
       <div className="seperator"></div>
       <div className="footer-end">
         <div className="footer-end-one">
-          <span className="footer-end-text">Made With Love By Haider Mansoor All Right Reserved </span>
+          <span className="footer-end-text">
+            Made With Love By Haider Mansoor All Right Reserved{" "}
+          </span>
         </div>
         <div className="footer-end-two">
           <Link href="https://www.facebook.com/haider.mansoor.750/">

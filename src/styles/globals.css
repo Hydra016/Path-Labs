@@ -28,14 +28,25 @@ section {
   height: 100%;
 }
 
-@media (max-width: 480px) {
-  .main {
-    /* padding: 10px 20px !important; */
+@media (max-width: 1300px) {
+  :root {
+    --primary-text-color: #555555;
+    --padding-normal: 15px 20px;
+    --primary-heading: 35px;
+    --btn-padding: 10px 20px;
+    --padding-secondary: 60px 80px !important;
   }
+
+  .text-landing {
+    max-width: 400px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .main {}
 
   .landing-container {
     padding: var(--padding-mobile) !important;
-    /* height: 100vh !important; */
   }
 
   .navbar-links {
@@ -208,39 +219,39 @@ section {
     padding: var(--padding-mobile) !important;
     background-color: #E5E5E5;
   }
-  
+
   .footer-links {
     justify-content: flex-start !important;
     display: flex;
     flex-wrap: wrap;
-    
+
   }
-  
+
   .footer-link-heading {
     font-weight: 600;
     margin-bottom: 10px;
   }
-  
+
   .footer-list {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    flex-basis: 29.3% ;
+    flex-basis: 29.3%;
     margin-right: 13px;
     margin-top: 10px;
   }
-  
+
   .footer-text {
     font-size: 11px !important;
     font-weight: 500;
     color: #737373;
     text-decoration: none;
   }
-  
+
   .footer-text:hover {
     text-decoration: underline;
   }
-  
+
   .footer-text-link {
     display: flex;
     align-items: center;
@@ -249,25 +260,25 @@ section {
     width: 250px;
     flex-wrap: wrap;
   }
-  
+
   .footer-text-link-img {
     margin-right: 15px;
   }
-  
+
   .footer-info {
     flex-direction: column;
   }
-  
+
   .footer-info-one {
     margin-right: 0 !important;
     margin-bottom: 50px;
   }
-  
+
   .footer-end {
     display: flex;
     justify-content: space-between;
   }
-  
+
   .footer-end-link {
     margin-left: 5px;
   }
@@ -275,7 +286,7 @@ section {
   .footer-end-one {
     max-width: 60%;
   }
-  
+
   .footer-end-text {
     color: var(--primary-btn-color);
     font-size: 11px !important;
@@ -288,7 +299,7 @@ section {
   .seperator {
     margin: 20px 0 !important;
   }
-  
+
 
 }
 
