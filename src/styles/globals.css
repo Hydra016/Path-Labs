@@ -70,7 +70,7 @@ section {
   }
 
   .advertisement-container {
-    display: none;
+    display: none !important;
   }
 
   .login-container {
@@ -423,6 +423,7 @@ section {
 }
 
 .advertisement-container {
+  display: block;
   position: relative;
   margin-top: 2rem;
 }
